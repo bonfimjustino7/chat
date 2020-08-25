@@ -1,0 +1,45 @@
+@import '../../../../colors/colors';
+
+.card{
+
+  .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1{
+
+    font-size: 36px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  p{
+    color: #707C97;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  button{
+    width: 240px;
+    height: 60px;
+    background: $primary-btn;
+    box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15), 4px 4px 25px rgba(42, 139, 242, 0.05), 10px 6px 25px rgba(42, 139, 242, 0.15);
+    border-radius: 6px;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    transition: 0.3s;
+
+    &:hover{
+
+      background: $primary-btn-hover;
+    }
+  }
+}

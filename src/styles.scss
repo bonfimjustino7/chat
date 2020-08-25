@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: TT Norms ;
+  src: url('../src/fonts/TTNorms-Regular.otf');
+}
+
 *{
   padding: 0;
   margin: 0;
+  font-family: TT Norms;
   // box-sizing: border-box;
 }

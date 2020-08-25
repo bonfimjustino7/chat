@@ -6,13 +6,13 @@
 
   .collumns{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 50px;
+    grid-template-columns: 45% auto;
+    column-gap: 50px;
 
     padding: 6% 3% 0;
 
-    .col{
-      border: 1px solid;
-    }
+    // .col{
+    //   // border: 1px solid;
+    // }
   }
 }
