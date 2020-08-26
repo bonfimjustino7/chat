@@ -35,11 +35,50 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
-    transition: 0.3s;
+    transition: 1s;
 
     &:hover{
 
       background: $primary-btn-hover;
+    }
+  }
+
+  .card-body{
+
+    .search{
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 100%;
+      border-left: 2px solid #F5F4FB;
+
+      a {
+        text-decoration: none;
+        color: #707C97;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        i {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          background-repeat: no-repeat!important;
+          background-size: 22px 20px;
+          padding-left: 17px;
+          margin-left: 9px;
+          margin-top: 7px;
+
+          &.shape{
+            background: url('../../../../assets/Shape.svg');
+          }
+        }
+      }
     }
   }
 }
